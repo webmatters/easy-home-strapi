@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notify_emails",
+  "info": {
+    "singularName": "notify-email",
+    "pluralName": "notify-emails",
+    "displayName": "Notify Emails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    }
+  }
+}
