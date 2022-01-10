@@ -1,8 +1,8 @@
 {
   "name": "easy-home-strapi",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.1.1",
+  "description": "Easy Home API built with Strapi",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -10,14 +10,14 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.3",
-    "@strapi/plugin-users-permissions": "4.0.3",
-    "@strapi/provider-upload-cloudinary": "^4.0.3",
-    "@strapi/strapi": "4.0.3",
+    "@strapi/plugin-i18n": "4.0.4",
+    "@strapi/plugin-users-permissions": "4.0.4",
+    "@strapi/provider-upload-cloudinary": "^4.0.4",
+    "@strapi/strapi": "4.0.4",
     "pg": "8.6.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Andrew Smith"
   },
   "strapi": {
     "uuid": "f293d73b-812a-4f36-822e-147341f5e5c6"
