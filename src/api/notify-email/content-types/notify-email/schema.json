@@ -15,7 +15,9 @@
     "email": {
       "type": "email",
       "required": true,
-      "unique": true
+      "unique": true,
+      "maxLength": 40,
+      "minLength": 6
     }
   }
 }

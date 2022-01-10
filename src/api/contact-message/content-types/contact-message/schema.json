@@ -12,13 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "first_name": {
+    "firstName": {
       "type": "string",
       "required": true,
-      "maxLength": 25,
-      "minLength": 2
+      "maxLength": 30
     },
-    "last_name": {
+    "lastName": {
       "type": "string",
       "required": true,
       "maxLength": 30,
@@ -27,18 +26,18 @@
     "email": {
       "type": "email",
       "required": true,
-      "maxLength": 40
+      "maxLength": 40,
+      "minLength": 6
     },
     "phone": {
       "type": "string",
-      "maxLength": 20,
-      "minLength": 10
+      "maxLength": 15
     },
     "subject": {
       "type": "string",
       "required": true,
-      "maxLength": 100,
-      "minLength": 5
+      "maxLength": 50,
+      "minLength": 2
     },
     "message": {
       "type": "text",
